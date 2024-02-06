@@ -1,4 +1,4 @@
-// Check if prefers-color-scheme is supported
+/*// Check if prefers-color-scheme is supported
 if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
     // Listen for theme changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
@@ -21,4 +21,4 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     updateLogo('dark');
 } else {
     updateLogo('light');
-}
+}*/
