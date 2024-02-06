@@ -1,0 +1,79 @@
+body {
+    font-family: 'Sora', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header img {
+    margin-top: .5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+h3 {
+    font-weight: 500;
+    margin-top: 2em;
+}
+
+.pdf-links {
+    list-style: none;
+    padding: 0;
+}
+.pdf-links li {
+    margin-bottom: 1em;
+}
+.pdf-links li a {
+    display: block;
+    padding: 10px;
+    background-color: #F56300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.pdf-links li a:hover {
+    background-color: #F55300;
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+    .header {
+        background-color: #080808;
+        color: #fff;
+    }
+    .container {
+        background-color: #080808;
+        color: #fff;
+    }
+    .pdf-links li a {
+        background-color: #111;
+    }
+    .pdf-links li a:hover {
+        background-color: #1a1a1a;
+    }
+}
