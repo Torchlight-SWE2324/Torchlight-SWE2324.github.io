@@ -61,6 +61,19 @@ h3 {
     background-color: #F55300;
 }
 
+.warning-container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    font-weight: 700;
+    background-color: #e6babe;
+    color: #8b212c;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 2em;
+    
+}
+
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
