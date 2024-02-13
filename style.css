@@ -1,5 +1,8 @@
-body {
+* {
     font-family: 'Sora', Arial, sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -19,7 +22,8 @@ body {
 .container {
     max-width: 800px;
     margin: 2em auto;
-    padding: 2em;
+    padding: 1.75em;
+    padding-top: .25em;
     background-color: #fff;
     border-radius: 8px;
 }
@@ -30,12 +34,12 @@ h1 {
 
 h2 {
     font-weight: 600;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 h3 {
     font-weight: 500;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .pdf-links {
@@ -49,11 +53,11 @@ h3 {
 
 .pdf-links li a {
     display: block;
-    padding: 10px;
+    padding: .5em;
     background-color: #f9f9f9;
     color: #F56300;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 8px;
     transition: background-color 0.3s;
     text-decoration: underline;
 }
@@ -73,6 +77,28 @@ h3 {
     border-radius: 8px;
     margin-top: 2em;
 }
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    background-color: #F56300;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 1em auto;
+    padding: .75em;
+    margin-bottom: 0;
+}
+.button:hover {
+    background-color: #df600c;
+}
+
 
 /* Dark Mode
 @media (prefers-color-scheme: dark) {
